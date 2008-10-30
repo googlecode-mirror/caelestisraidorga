@@ -1,0 +1,60 @@
+<?
+//////////////////////////////////////////////
+// config.inc.php
+// Fichier de configuration de l'application, 
+// A MODIFIER - configuration de l'application
+// Version du 21/10/2008
+// Auteur: Joyrock
+//////////////////////////////////////////////:
+// 
+// 21/10/2008: Nettoyage du code, première version 
+
+//////////////////////////////////////////////:
+//Configuration de la base de donnée
+//$db_host - Nom de votre serveur SQL
+//$db_user - login de votre serveur SQL
+//$db_pass - mot de passe associé
+//$db_name - nom de la base de donnée
+//$db_prefix - prefix des tables
+
+$db_host = 'localhost';
+$db_user = '';
+$db_pass = '';
+$db_name = '';
+$db_prefix = 'ORGA_';
+
+//////////////////////////////////////////////:
+//Configuration de l'application
+//$root - Adresse de votre site (là ou vous avez chargé woworga)
+//$timezone - Votre time zone (utile pour la fonction php date() )
+//$guild -  Nom de votre guilde
+$root = 'http://localhost/raid';
+$timezone = 'Europe/Paris';
+$guild = 'Ma guilde';
+$mail_contact = 'mon.mail@monfai.com';
+
+//Configuration des options du raid orga
+$classe 	= array('Chaman','Chasseur','Démoniste','Druide','Guerrier','Mage','Paladin','Prêtre','Voleur',"DeathKnight");
+$race		= array('Draenei','Elfe','Elfe de Sang','Gnome','Humain','Mort-Vivant','Nain','Orc','Tauren','Troll');
+$ranks		= array("Apply","Ami de la guilde","Membre","Officier","GM");
+$dispo		= array("Aucune idée","Non confirmé","Disponible","Absent","Réserviste");
+$dispo_short= array("<b>?</b>","<font style=color:orange>Non Confirmé</font>","<font style=color:green><b>Disponible</b></font>","<font style=color:red>Absent</font>","<font style=color:blue>Réserviste</font>");
+$inst_type	= array("Raid (25)","Raid (10)","Groupe");
+$instance 	= array("Coeur de Magma","Antre d'Onyxia","Seigneur Kazzak","Azuregos","Repaire de l'Aile-Noire","Vallée d'Alterac","Zul'Gurub","Ahn'Qiraj (20)","Ahn'Qiraj (40)","Naxxramas","Kharazan","Zul'aman","Le repaire de Gruul","Repaire de Magtheridon","Sanctuaire du Serpent","Oeil du cyclone","Batailles pour le Mont Hyjal","Temple noir","Sunwell");
+
+// Couleur de classe, pas encore utilisé dans le raidorga
+$hunter_color = '#AAD372';		// Hexidecimal color value for the Hunter class
+$warlock_color = '#9382C9';		// Hexidecimal color value for the Warlock class
+$priest_color = '#FFFFFF';		// Hexidecimal color value for the Priest class
+$paladin_color = '#F48CBA';		// Hexidecimal color value for the Paladin class
+$mage_color = '#68CCEF';		// Hexidecimal color value for the Mage class
+$rogue_color = '#FFF468';		// Hexidecimal color value for the Rogue class
+$druid_color = '#FF7C0A';		// Hexidecimal color value for the Druid class
+$shaman_color = '#F78CBA';		// Hexidecimal color value for the Shaman class
+$warrior_color = '#C69B6D';		// Hexidecimal color value for the Warrior class
+
+//On se connecte et on configure la base en UTF-8	
+$id_link = mysql_connect($db_host, $db_user, $db_pass) or die("Impossible de se connecter : config.inc.php:25 : ".mysql_error());
+mysql_query("SET NAMES 'utf8'") or die("Impossible de changer le charset : config.inc.php:26 : ".mysql_error());
+mysql_select_db($db_name,$id_link) or die("Impossible de sélectionner la base de données : config.inc.php:27 : ".mysql_error());
+?>

@@ -1,0 +1,295 @@
+body {
+	color: #000000;
+	background: #F5F5F5;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: small;
+	font-family:verdana;
+}
+
+table {
+	width: 90%;
+	margin-left: 10;
+	margin-right: 10;
+	font-size:12px;
+	border:2px solid #99B288;
+}
+
+.p{
+	margin-left : 25px;
+	font-size:12px;
+}
+.info{
+	width:100px;
+	height:150px;
+	background-color:#000000;
+}
+
+img{
+	border:0px;
+}
+
+table td {
+	border-width: 0;
+	vertical-align: top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 3px;
+
+
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	background-color: transparent;
+	color: #000099;
+
+}
+a:hover {color: #ff6600;}
+
+.info a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size:14px;
+	background-color: transparent;
+	color: #FFFFFF;
+
+}
+.info a:hover {color: #ff6600;}
+
+.ttb a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size:12px;
+	background-color: transparent;
+	color: #00FF00;
+
+}
+.ttb a:hover {color: #77FF77;}
+
+input,textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#F5F5F5;
+	color:#99B288;
+	font-weight:bold;
+	width:90%;
+	border:1px solid black;
+}
+.menu{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	width:120px;
+	border:2px solid #99B288;
+	background-color:#F5F5F5;
+	color:#99B288;
+	font-weight:bold;
+}
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: none;
+	background-color: #F5F5F5;
+}
+th {
+	padding : 0px;
+	text-align:left;
+	vertical-align : top;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #99B288;
+	color:#FFFFFF;
+	font-family:Verdana;
+}
+.finished{
+	background-color: #DDDDDD;
+}
+.leader td{
+	background-color: #8080ff;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+.odd td{
+	background-color: #cee8ce;
+}
+big{
+	color:#99B288;
+	font-family: Verdana;
+	font-size: 18px;
+}
+.player td,.player{
+	vertical-align:middle;
+	border-bottom:1px solid black;
+}
+.player img{
+
+}
+.erreur{
+	font-family:Verdana;
+	color:red;
+	font-weight:bold;
+}
+.message{
+	font-family:Verdana;
+	color:#ff6600;
+	font-weight:bold;
+}
+.footer_menu{
+	margin-top:50px;
+	margin-bottom:25px;
+	margin-left:0;
+	margin-right:0;
+	width:100%;
+	border:1px solid #cee8ce;
+	text-align:center;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:14px;
+
+}
+.header_menu{
+	margin-bottom:50px;
+	margin-top:5px;
+	margin-left:0;
+	margin-right:0;
+	border:1px solid #cee8ce;
+	text-align:center;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.header_menu img{
+	
+}
+
+.blacked{
+	background-color:black;
+	color:white;
+}
+.small img{
+	width:20px;
+}
+.small td{
+	font-size:10px;
+}
+.login td{
+	text-align:center;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+}
+.login th{
+	background-color:black;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity: 0.75;
+}
+.login{
+	border:1px solid black;
+}
+
+.mess{
+	
+}
+.mess div{
+	overflow:auto;
+	width:100%;
+	height:100%;
+}
+.mess td{
+	font-size:10px;
+}
+.mess th{
+	font-size:10px;
+	border-bottom:1px solid white;
+}
+.odd th{
+	background-color:#cee8ce;
+}
+	
+.mess table{
+	margin-left:0;
+	margin-right:0;
+	width:100%;
+}
+.mess img{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.50;
+	opacity: 0.50;
+}
+.forum th,.dkp th{
+	font-size:10px;
+}
+.dkp td{
+	font-weight:bold;
+	text-align:right;
+}
+.dkp{
+	spacing:1px;
+	border:0px;
+	width:300px;
+}
+
+.dkp_title{
+	background-color: #d1ddc9;
+	color : black;
+	font-size:14px;
+}
+
+
+span.quality   { color: #FFFFFF; }
+span.quality-1 { color: #FFCC00; }
+span.quality0  { color: #808080; }
+span.quality1  { color: #FFCC00; }
+span.quality2  { color: #00FF00; }
+span.quality3  { color: #0068FF; }
+span.quality4  { color: #8000FF; }
+span.quality5  { color: #FF8000; }
+span.quality6  { color: #FF0000; }
+span.quality,span.quality-1,span.quality0,span.quality1,span.quality2,span.quality3,span.quality4,span.quality5,span.quality6 {
+  display: block;
+  font-weight: bold;
+}
+
+table.ttb {
+  background-color: #282828; 
+  color: #FFFFFF;
+  margin: 0px; 
+  border-bottom: 2px solid #888; 
+  border-right: 2px solid #888;
+  border-top: 2px solid #EEE; 
+  border-left: 2px solid #EEE;
+  font-size: 12px;
+}
+
+.dispo_0{
+	font-style: italic;
+}
+.dispo_1{
+	color:orange;
+}
+.dispo_2{
+	color:green;
+	font-weight:bold;
+}
+.dispo_3{
+	color:red;
+}
+.dispo_4{
+	color:blue;
+}
+
+.wishlist td{
+
+	 vertical-align:middle;
+	
+}
+
+.guildName			{ color: #99B288; font-size: 22px; font-weight: bold; }
+.contentTable   { border: 1px solid #99B288; background-color: #99B288; }
+.selectTable   	{ border-left: 1px solid #99B288; border-right: 1px solid #99B288; }
+.cellHeader			{ color: #FFFFFF; background-color: #99B288; font-weight: bold; }
+.altRow					{ color: #EFEFEF; background-color: #2A2A2A; }
+
+.pad						{ padding-bottom: 20px; }
