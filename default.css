@@ -1,0 +1,1287 @@
+h3.char  {
+	padding: 2px 0 2px 0;
+	font: 11px georgia, tahoma, sans-serif;
+	font-weight: bold;
+	margin: 0 0 0 20px;
+	width: 60%;
+}
+h4.char  {
+	padding: 2px 0 2px 0;
+	font: 11px georgia, tahoma, sans-serif;
+	margin: 0 0 0 20px;
+	width: 50%;
+}
+
+.petspells {
+  font: 11px verdana, arial, sans-serif;
+}
+
+.char { 
+  width: 405px;
+  height: 560px;
+  padding: 0 0 0 0;
+}
+
+.char .main { 
+  width: 405px;
+  height: 500px;
+  background: url('images/profiler/borderBottomSides.gif') no-repeat;
+  background-position: center bottom;
+}
+.char .main .top { 
+  float: left;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background: url('images/profiler/bgTop.gif') no-repeat;
+}
+
+.nomcarac{ 
+  text-align: center;
+  font: 13px georgia, tahoma, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  position: relative;
+  top: 3px;
+}
+
+.classecarac{ 
+	text-align: center;
+	font: 11px georgia, tahoma, sans-serif;
+	color: #dfb901;
+	font-weight: bold;
+	position: relative;
+	top: 25px;
+}
+
+.char .main .page1 { 
+  float: left;
+}
+
+.char .main .page1 .left { 
+  float: left;
+  width: 62px;
+  height: 430px;
+  background: url('images/profiler/borderLeft.gif') repeat-y;
+  background-position: left top;
+  clear: none;
+}
+.char .main .page1 .right { 
+  float: left;
+  width: 62px;
+  height: 430px;
+  background: url('images/profiler/borderRight.gif') repeat-y;
+  background-position: right top;
+}
+.char .main .page1 .left .equip { 
+  float: left;
+  width: 52px;
+  height: 43px;
+  padding: 3px 0 3px 10px;
+  background: url('images/profiler/bgItem.gif') no-repeat;
+  background-position: 3px 0;
+}
+.char .main .page1 .right .equip { 
+  float: left;
+  width: 52px;
+  height: 43px;
+  padding: 3px 0 3px 7px;
+  background: url('images/profiler/bgItem.gif') no-repeat;
+}
+.char .main .page1 .middle { 
+  float: left;
+  width: 280px;
+  height: 430px;
+}
+.char .main .page1 .middle .portrait { 
+  float: left;
+  width: 100%;
+  height: 260px;
+  background-color: #000000;
+  background: url('images/profiler/bgChar.gif') no-repeat;
+}
+
+.resistances {
+	float: right;
+	width: 32px;
+	height: 148px;
+	background: url(images/profiler/ResistanceIcons.png) no-repeat;
+	padding-right: 3px;
+}
+
+.xp { 
+  float: left;
+  height: 22px;
+  width: 230px;
+}
+
+.xp .xpbox { 
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 230px;
+  height: 20px;
+}
+
+.xp .xpbox .bg { 
+  float: left;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 230px;
+  height: 20px
+
+}
+
+.xp .xpbox .bit { 
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  height: 18px;
+}
+
+.xp .xpbox .level { 
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  height: 15px;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0px 5px 10px;
+  font: 11px georgia, tahoma, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+.resistances .stats { 
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  color: #DFB801;
+
+}
+
+.resistances .stats li { 
+  list-style-type: none;
+  padding: 14px 0 0 6px;
+  text-align: center;
+  font: 11px verdana, tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.resistances .stats li ul {  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resistances .stats li span, .stats ul li span {
+	font-family: georgia, tahoma, sans-serif;
+	padding: 0px 5px 0 0;
+	margin-top: -10px;
+}
+
+.char .main .page1 .middle .bottom { 
+  float: left;
+  width: 100%;
+  height: 170px;
+}
+
+.char .main .page1 .middle .bottom .padding { 
+  height: 100px;
+  padding: 0 2px 0 2px;
+  background: url('images/profiler/bgStats.gif') no-repeat;
+  background-position: 0 0px;
+}
+
+.char .main .page1 .middle .bottom .padding .stats { 
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  color: #DFB801;
+}
+
+.char .main .page1 .middle .bottom .padding .stats li { 
+  list-style-type: none;
+  padding: 1px 0 0 6px;
+  text-align: left;
+  font: 11px georgia, tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.char .main .page1 .middle .bottom .padding .stats li ul {  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.char .main .page1 .middle .bottom .padding .stats li span, .stats ul li span { 
+  float: right;
+  font-family: georgia, tahoma, sans-serif;
+  padding: 0 6px 0 0;
+  margin-top: -15px;
+}
+
+.char .main .page1 .middle .bottom .padding .stats ul li ul li span { 
+  color: #ffffff;
+}
+
+.char .main .page1 .middle .bottom .hands { 
+  height: 70px;
+  width: 280px;
+  background: url('images/profiler/bgHands.gif') no-repeat;
+}
+
+.char .main .page1 .middle .bottom .hands .weapon0 { 
+  padding: 16px 0 0 69px;
+  float: left;
+}
+
+.char .main .page1 .middle .bottom .hands .weapon1 { 
+  padding: 16px 0 0 11px;
+  float: left;
+}
+
+.char .main .page1 .middle .bottom .hands .weapon2 { 
+  padding: 16px 0 0 10px;
+  float: left;
+}
+
+.char .main .page2 { 
+  float: left;
+  display: none;
+}
+.char .main .page3 { 
+  float: left;
+}
+.page2 { 
+  float: left;
+  display: none;
+}
+.page3 { 
+  float: left;
+}
+
+.char .main .page3 .professions {
+	float: left;
+	position: relative;
+	height: 206px;
+	width: 397px;
+	overflow: auto;
+	background-color: #000000;
+}
+.char .main .page3 .barre {
+	float: left;
+	position: relative;
+	height: 18px;
+	width: 397px;
+	overflow: none;
+	background-color: #000000;
+	background-image: url(images/profiler/HorizontalBar.png);
+	background-repeat: no-repeat;
+}
+
+.char .main .page3 .left { 
+  float: left;
+  width: 4px;
+  height: 430px;
+  background: url('images/profiler/borderLeft.gif') repeat-y;
+  background-position: left top;
+}
+.char .main .page3 .right { 
+  float: left;
+  width: 4px;
+  height: 430px;
+  background: url('images/profiler/borderRight.gif') repeat-y;
+  background-position: right top;
+}
+
+
+.char .main .page3 .skills { 
+  float: left;
+  position: relative;
+  height: 430px;
+  width: 397px;
+  overflow: auto;
+  background-color: #000000;
+}
+.char .bottomBorder { 
+  float: left;
+  width: 405px;
+  height: 10px;
+  background: url('images/profiler/borderBottom.gif');
+  background-position: left top;
+  font-size: 0px;
+}
+
+.char .tabs { 
+  width: 405px;
+  height: 20px;
+  float: left;
+  padding: 0 0 0 20px ;
+}
+.char .tabs .tab {
+	float: left;
+	height: 15px;
+	/*background: url('images/profiler/tab.gif');
+	background-position: left top;*/
+	font: 11px georgia, tahoma, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	white-space:nowrap;
+}
+.char .tabs .tab .left {
+	float:left;
+	width:9px;
+	height:15px;
+	background: url('images/profiler/tab-left.png');
+	background-position:left top;
+	padding:5px 0px 5px 0px; 
+}
+
+.char .tabs .tab .right {
+	float:left;
+	width:9px;
+	height:15px;
+	background: url('images/profiler/tab-right.png');
+	background-position:left top;
+	padding:5px 0px 5px 0px; 
+}
+
+.char .tabs .tab .middle {
+	float:left;
+	width: expression(50 + "px");
+	min-width: 50px;
+	height:15px;
+	background: url(images/profiler/tab-middle.png) repeat-x left top;
+	text-align: center;
+	white-space:nowrap;
+	padding:5px 0px 5px 0px; 
+}
+
+.bag { 
+  float: left;
+  width: 212px;
+  margin: 10px 0 10px;
+  color: #ffffff;
+  background: url('images/profiler/bagBg2.gif') repeat-y;
+  background-position: 0 3px;
+}
+
+.bag .bagTop { 
+  float: left;
+  width: 100%;
+  background: url('images/profiler/bagTopBig.gif') no-repeat;
+  height: 52px;
+}
+
+.bag .bagTop .bagIcon { 
+  float: left;
+  width: 50px;
+  height: 50px;
+  padding: 5px 5px 5px 5px;
+} 
+
+.bag .bagTop .bagName {
+	float: left;
+	vertical-align: middle;
+	height: 50px;
+	margin: 0;
+  padding: 15px 0 10px 0;
+	font: 13px georgia, tahoma, sans-serif;
+	font-weight: bold;
+	width: 150px;
+}
+
+.bag .bagLine { 
+  float: left;
+  width: 100%;
+  padding: 0 0 0 4px;
+}
+
+.bag .bagLine .bagNoSlot { 
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding: 4px 5px 5px 6px;
+}
+
+.bag .bagLine .bagSlot { 
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding: 4px 5px 5px 6px;
+  background-image: url('images/profiler/bagSlot.gif');
+
+}
+
+.bag .bagBottomLine { 
+  float: left;
+  width: 100%;
+  padding: 0 0 0 4px;
+}
+
+.bag .bagBottomLine .bagSlot { 
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding: 4px 5px 2px 6px;
+  background-image: url('images/profiler/bagBottomBox.gif');
+  background-position: left top;
+}
+
+.bag .bagMoneyBottom { 
+  float: left;
+  width: 100%;
+  background-image: url('images/profiler/bagMoneyBottom.gif');
+}
+
+.bag .bagMoneyBottom .money { 
+  float: right;
+  padding: 4px 15px 7px 0;
+}
+
+.bag .bagBottom { 
+  float: left;
+  height: 6px;
+  width: 100%;
+  background-image: url('images/profiler/bagBottom.gif') ;
+}
+
+
+.reptype { 
+  float: left;
+  height: 12px;
+  padding: 10px 2px 5px 20px;
+  font-family: 12px verdana, arial, sans-serif;
+  font-weight: bold;
+  color: #aa9900;
+}
+
+.proftype {
+	float: left;
+	height: 15px;
+	width:75%;
+	font-family: 12px verdana, arial, sans-serif;
+	font-weight: bold;
+	color: #FFFF00;
+	border: thin solid #666666;
+	background-color: #666666;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.skill .repbox {
+	float: left;
+	position: relative;
+	left: 0;
+	width: 165px;
+	height: 20px;
+	top: 0px;
+}
+.prof {
+	float: left;
+	height: auto;
+	width: 75%;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border: thin solid #666666;
+}
+
+.prof .profbox {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	vertical-align: 50%;
+}
+
+.skill .repbox .bg { 
+  float: left;
+  position: absolute;
+  left: 5px;
+  top: 0;
+  width: 165px;
+  height: 20px
+
+}
+
+.skill .repbox .bit { 
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  left: 7px;
+  height: 18px;
+}
+
+
+.skill .namerep {
+	float: left;
+	left: 5px;
+	top: 0;
+	height: 15px;
+	padding: 3px 0px 5px 10px;
+	font: bold 11px/9px georgia, tahoma, sans-serif;
+	color: #ffffff;
+	width: 160px;  
+
+}
+.namereplink {
+	font: bold 11px/9px georgia, tahoma, sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+}
+.skill .atwar {
+	position: relative;
+    float: left;
+	left: 5px;
+	top: 0;
+	height: 20px;
+	width: 20px;  
+
+}
+
+.prof .profbox .nameprof {
+	width:30%;
+	padding: 0px 0px 0px 0px;
+	font: 11px georgia, tahoma, sans-serif;
+	font-weight: bold;
+	float: left;
+	vertical-align: 50%;
+}
+.prof .profbox .descprof {
+	width:50%;
+	padding: 0px 0px 0px 0px;
+	font: 11px georgia, tahoma, sans-serif;
+	font-weight: bold;
+	color: #aa9900;
+	float: left;
+	vertical-align: 50%;
+}
+.prof .profbox .iconprof {
+	top: 0;
+	width:50px;
+	padding: 3px 0px 5px 10px;
+	float: left;
+	vertical-align: 50%;
+
+}
+
+.skill .repbox .level { 
+  position: absolute;
+  left: 0px;
+  top: 0;
+  height: 15px;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0px 5px 10px;
+  font: 11px georgia, tahoma, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.item { 
+  float: left;
+  position: relative;
+  width: 40px;
+  height: 40px; 
+}
+
+.item .quant {
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+	font: 11px verdana, sans-serif;
+	color: #ffffff;
+}
+
+table.item{
+	background-color: #ffffff;
+}
+td.item{
+	background-color: #ffffff;
+}
+
+.icon { 
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding: 0px 0 0 0;
+  position:relative;
+  }
+
+
+.tip{
+  position: absolute;
+  top: 0px;
+  left: 45px;
+  width: 250px;
+  border: 2px solid #aa9900;
+  background-color: #000000;
+  text-decoration: none;
+  display: none;
+  z-index: 100;
+
+}
+
+.tooltipline { 
+float: left;
+ width: 100%;
+}
+.tooltiplinemanaleft {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+.tooltiplinemanaright {
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+
+.tooltipheader { 
+	float: left;
+ width: 100%;
+  font-weight: bold;
+}
+
+img, p { 
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a.charlink{
+	font-weight: bold;
+	color: #22ff22;
+}
+a.noform{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a.title {
+	color: #000000;
+}
+
+td.char{
+	background-color: #000000;
+	color: #ffffff
+}
+table.subchar{
+	background-color: #000000;
+}
+td.subchar{
+	background-color: #000000;
+}
+
+table.bag{
+	background-color: #000000;
+}
+
+table.invis{
+	background-color: #000000;
+}
+table.tooltip{
+	background-color: #000000;
+}
+
+font.white{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #ffffff
+}
+
+font.yellow{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #aa9900;
+}
+font.green{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #22ff22;
+}
+font.red{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #ff2222;
+}
+
+.grey {
+  color: #808080;
+}
+
+.yellow {
+  color: #cc9900;
+}
+
+.green {
+  color: #00bb00;
+}
+
+.greenb {
+	color: #00bb00;
+	font-weight: bold;
+}
+
+.blue {
+  color: #0068ff;
+}
+
+.purple {
+  color: #8000ff;
+}
+
+.purpleb {
+	color: #8000ff;
+	font-weight: bold;
+}
+
+.white {
+  color: #ffffff;
+}
+.talentfond {
+	float: left;
+	margin: 20px 15px;
+	padding: 0px;
+	height: 370px;
+	width: 317px;
+}
+
+.talentcase {
+	position: relative;
+	float: left;
+	margin: 4px 2px;
+	padding: 0px 0px 0px 18px;
+	height: 45px;
+	width: 55px;
+}
+.talentcase .bordercolored {
+	border: thin solid #FFFF00;
+}
+
+.talentcase .rank{
+	position: absolute;
+	right: 7px;
+	bottom: 0px;
+	font: 11px verdana, sans-serif;
+	color: #00FF00;
+	background-image: url(images/profiler/Interface/TalentFrame/TalentFrame-RankBorder.png);
+	height: 13px;
+	width: 14px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: center;
+	vertical-align: middle;
+}
+.talentcase .rankyellow{
+	position: absolute;
+	right: 7px;
+	bottom: 0px;
+	font: 11px verdana, sans-serif;
+	color: #FFFF00;
+	background-image: url(images/profiler/Interface/TalentFrame/TalentFrame-RankBorder.png);
+	height: 13px;
+	width: 14px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div#tipDiv {
+	position:absolute;
+	visibility:hidden;
+	left:45px;
+	top:400px;
+	z-index:1;
+	width:250px;
+	padding:4px;
+	font-size: 1px;
+	opacity:0.8;
+	filter: Alpha(Opacity=80);
+}
+
+a.questlink { color: #fefefe; text-decoration: none; font: 11px georgia, tahoma, sans-serif;}
+a.questlink:hover {color: #fefefe; text-decoration:none; font: 11px georgia, tahoma, sans-serif;}
+
+.questtitlezone {
+	color: #dfb901;
+	font: 11px georgia, tahoma, sans-serif;
+	font-weight: bold;
+}
+
+.questextblack {
+	color: #000000;
+	font: normal 18px "T4C Beaulieux", Arial, sans-serif;
+}
+.questexttitle {
+	color: #dfb901;
+	font: normal 18px "T4C Beaulieux", Arial, sans-serif;
+}
+.questttobjec {
+	font: 11px georgia, tahoma, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.questtitlerecap-3FBF3F { font: 11px georgia, tahoma, sans-serif; color: #3FBF3F;}
+.questtitlerecap-7F7F7F { font: 11px georgia, tahoma, sans-serif; color: #7F7F7F;}
+.questtitlerecap-FFFF00 { font: 11px georgia, tahoma, sans-serif; color: #FFFF00;}
+.questtitlerecap-FF1919 { font: 11px georgia, tahoma, sans-serif; color: #FF1919;}
+.questtitlerecap-FF7F3F { font: 11px georgia, tahoma, sans-serif; color: #FF7F3F;}
+.questtitlerecap-FFFFFF { font: 11px georgia, tahoma, sans-serif; color: #FFFFFF;}
+.questtitlerecap-1 { font: 11px georgia, tahoma, sans-serif; color: #3FBF3F;}
+.questtitlerecap-0 { font: 11px georgia, tahoma, sans-serif; color: #7F7F7F;}
+.questtitlerecap-2 { font: 11px georgia, tahoma, sans-serif; color: #FFFF00;}
+.questtitlerecap-4 { font: 11px georgia, tahoma, sans-serif; color: #FF1919;}
+.questtitlerecap-3 { font: 11px georgia, tahoma, sans-serif; color: #FF7F3F;}
+
+.questtitleobjec {
+	font: 11px georgia, tahoma, sans-serif;
+	color: #400000;
+	font-weight: bold;
+}
+
+.questtitleprogression {
+	font: 11px georgia, tahoma, sans-serif;
+	font-style: italic;
+	width:50%;
+	color: #222222;
+}
+
+.questtitledescr {
+	font: 11px georgia, tahoma, sans-serif;
+	color: #000000;
+}
+
+.quest { 
+	float: left;
+	position: relative;
+  width: 384px;
+  height: 521px;
+  padding: 0 0 0 0;
+  background: url('images/profiler/quest.gif') no-repeat;
+  background-position: center bottom;  
+}
+.validquest {
+	position: relative;
+	float: right;
+	width: 384px;
+	height: 521px;
+	overflow: auto;
+}
+
+.quest .questBookIcon { 
+	float: left;
+    position: relative;
+    top: 13px;
+    left: 6px;
+    background: url('images/profiler/BookIcon.gif') no-repeat;
+  	width: 64px;
+  	height: 64px;        
+}
+
+.quest .top { 
+	position: relative;
+        top: 20px;
+        left: 0px;  
+  	float: left;
+  	width: 250px;
+  	height: 60px;
+  	text-align: center;
+}
+
+.quest .comptage {  
+	position: relative; 
+	top: 27px; 
+	left: 16px;  
+	float: left; 
+	width: 15px; 
+	height: 15px; 
+	text-align: center; 
+	font: 10px georgia, tahoma, sans-serif; 
+	font-weight: bold; 
+	color: #7A6248; 
+} 
+
+.quest .libelles {
+	float: left;
+        position: relative;
+        left: -42px;
+        top: 22px;
+	height: 84px;
+        width: 310px;
+	overflow: auto;
+	color : #FFFFFF;
+	padding: 5px 5px 5px 5px;
+}
+
+.quest .descriptions {
+	float: left;
+        position: relative;
+        left: 22px;
+        top: 27px;
+	height: 254px;
+	width: 310px;
+	overflow: auto;
+	color: #000000;
+	padding: 5px 5px 5px 5px;
+}
+
+.char .main .page2 .skills { 
+  float: left;
+  position: relative;
+  height: 430px;
+  width: 394px;
+  overflow: auto;
+  background-color: #000000;
+}
+.char .main .page2 .left { 
+  float: left;
+  position: relative;
+  width: 4px;
+  height: 430px;
+  background: url('images/profiler/borderLeft.gif') repeat-y;
+  background-position: left top;
+}
+.char .main .page2 .right { 
+  float: left;
+  position: relative;
+  width: 4px;
+  left: 3px;
+  height: 430px;
+  background: url('images/profiler/borderRight.gif') repeat-y;
+  background-position: right top;
+}
+.skilltype { 
+  float: left;
+  height: 12px;
+  padding: 10px 2px 5px 20px;
+  font-family: 12px verdana, arial, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+.skill { 
+  float: left;
+  height: 22px;
+  width: 360px;
+}
+
+.skill .skillbox { 
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 360px;
+  height: 20px;
+
+}
+.skill .skillbox .bg { 
+  position: absolute;
+  left: 5px;
+  top: 0;
+  width: 360px;
+  height: 20px
+
+}
+.skill .skillbox .bit { 
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  left: 8px;
+  height: 18px;
+}
+.skill .skillbox .name { 
+  position: absolute;
+  left: 5px;
+  top: 0;
+  height: 15px;
+  padding: 3px 0px 5px 10px;
+  font: 11px georgia, tahoma, sans-serif;
+  font-weight: bold;
+  color: #aa9900;
+  
+
+}
+.skill .skillbox .level { 
+  position: absolute;
+  left: 5px;
+  top: 0;
+  height: 15px;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0px 5px 10px;
+  font: 11px georgia, tahoma, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+.char .main .page2 .skills .entete {
+  position: relative;
+  left:10px; 
+  width: 372px;
+  height: 40px;
+  font: 13px georgia, tahoma, sans-serif;
+  color: #dfb901;
+  text-align:center;
+  font-weight:bold;
+  padding-top:10px;
+  z-index:2;
+}
+
+.char .main .page2 .skills .bit2 { 
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  height: 29px;
+  padding-top:10px;
+  z-index:1;
+}
+
+.char .main .page2 .skills .haut {
+  position: relative;
+  left:10px; top:-9px;
+  float:left;
+  width: 372px;
+  height: 17px;
+  background-image:url(images/profiler/honor-top.png);
+  background-repeat:no-repeat;
+  margin:0px 0px -17px 0px;
+}
+.char .main .page2 .skills .gauche {
+  position:relative;
+  left:10px; top:0px;
+  float:left;
+  width: 13px;
+ /* height:70px;*/
+  background-image:url(images/profiler/honor-left.png);
+  background-repeat:repeat-y;
+  margin:0px 0px 0px 0px;
+}
+.char .main .page2 .skills .droite {
+  position:relative;
+  left:10px; top:0px;
+  float:left;
+  width: 16px;
+/*  height:70px;*/
+  background-image:url(images/profiler/honor-right.png);
+  background-repeat:repeat-y;
+  margin:0px 0px 0px 0px;
+}
+.char .main .page2 .skills .centre {
+  position:relative;
+  left:10px; top:0px;
+  float:left;
+  width: 337px;
+/*  height:70px;*/
+  background-image:url(images/profiler/bgChar.gif);
+  margin:0px 0px 0px 0px;
+  padding-left:3px;
+  padding-right:3px;
+}
+.char .main .page2 .skills .centre .menu {
+  position: relative;
+  width: 337px;
+  height: 20px;
+  font: 11px georgia, tahoma, sans-serif;
+  color: #dfb901;
+  font-weight:bold;
+}
+.char .main .page2 .skills .centre .lib1 {
+  position: relative;
+  float:left;
+  width: 190px;
+  height: 16px;
+  font: 11px georgia, tahoma, sans-serif;
+  color: #ffffff;
+  font-weight:bold;
+  padding-left:10px;
+}
+.char .main .page2 .skills .centre .lib2vert {
+  position: relative;
+  float:left;
+  width: 137px;
+  height: 16px;
+  font: 11px georgia, tahoma, sans-serif;
+  color: #3FBF3F;
+  font-weight:bold;
+  text-align:right;
+ }
+.char .main .page2 .skills .centre .lib2rouge {
+  position: relative;
+  float:left;
+  width: 137px;
+  height: 16px;
+  font: 11px georgia, tahoma, sans-serif;
+  color: #FF1919;
+  font-weight:bold;
+  text-align:right;
+ }
+.char .main .page2 .skills .centre .lib2jaune {
+  position: relative;
+  float:left;
+  width: 137px;
+  height: 16px;
+  font: 11px georgia, tahoma, sans-serif;
+  color: #FFFF00;
+  font-weight:bold;
+  text-align:right;
+ }
+.char .main .page2 .skills .bas {
+  position: relative;
+  left:10px;; top:0;
+ float:left;
+  width: 372px;
+  height: 17px;
+  background-image:url(images/profiler/honor-bottom.png);
+  background-repeat:no-repeat;
+  margin:0px 0px 0px 0px;
+}
+
+.char .main .pagepet1 { 
+  float: left;
+  /*display: none;*/
+}
+
+.char .main .pagepet2 { 
+  float: left;
+  display: none;
+}
+
+.char .main .pagepet .left { 
+  float: left;
+  width: 62px;
+  height: 430px;
+  background: url('images/profiler/borderLeft.gif') repeat-y;
+  background-position: left top;
+  clear: none;
+}
+.char .main .pagepet2 .left { 
+  float: left;
+  width: 62px;
+  height: 430px;
+  background: url('images/profiler/borderLeft.gif') repeat-y;
+  background-position: left top;
+  clear: none;
+}
+.char .main .pagepet .right { 
+  float: left;
+  width: 62px;
+  height: 430px;
+  background: url('images/profiler/borderRight.gif') repeat-y;
+  background-position: right top;
+}
+.char .main .pagepet2 .right { 
+  float: left;
+  width: 62px;
+  height: 430px;
+  background: url('images/profiler/borderRight.gif') repeat-y;
+  background-position: right top;
+}
+.char .main .pagepet .middle { 
+  float: left;
+  width: 280px;
+  height: 430px;
+}
+.char .main .pagepet2 .middle { 
+  float: left;
+  width: 280px;
+  height: 430px;
+}
+
+.char .main .pagepet .padding {
+	position: relative;
+	height: 100px;
+	padding: 0 2px 0 2px;
+	background: url('images/profiler/bgPetStats.gif') no-repeat;
+	background-position: 0 0px;
+	top: 31px;
+}
+.char .main .pagepet2 .padding {
+	position: relative;
+	height: 100px;
+	padding: 0 2px 0 2px;
+	background: url('images/profiler/bgPetStats.gif') no-repeat;
+	background-position: 0 0px;
+	top: 31px;
+}
+
+.char .main .pagepet .padding .stats { 
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  margin: 5px 0 0;
+  list-style-type: none;
+  color: #DFB801;
+}
+.char .main .pagepet2 .padding .stats { 
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  margin: 5px 0 0;
+  list-style-type: none;
+  color: #DFB801;
+}
+
+.char .main .pagepet .padding .stats li { 
+  list-style-type: none;
+  padding: 1px 0 0 6px;
+  text-align: left;
+  font: 11px georgia, tahoma, sans-serif;
+  font-weight: bold;
+}
+.char .main .pagepet2 .padding .stats li { 
+  list-style-type: none;
+  padding: 1px 0 0 6px;
+  text-align: left;
+  font: 11px georgia, tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.char .main .pagepet .padding .stats li ul {  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.char .main .pagepet2 .padding .stats li ul {  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.char .main .pagepet .padding .stats li span, .stats ul li span { 
+  float: right;
+  font-family: georgia, tahoma, sans-serif;
+  padding: 0 6px 0 0;
+  margin-top: -15px;
+}
+.char .main .pagepet2 .padding .stats li span, .stats ul li span { 
+  float: right;
+  font-family: georgia, tahoma, sans-serif;
+  padding: 0 6px 0 0;
+  margin-top: -15px;
+}
+
+.char .main .pagepet .padding .stats ul li ul li span { 
+  color: #ffffff;
+}
+.char .main .pagepet2 .padding .stats ul li ul li span { 
+  color: #ffffff;
+}
+
+
